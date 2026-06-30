@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR4k0375/v1
+canonical_location: https://kanripo.org/bkk/KR4k0375/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 范亨燕書一卷
+  identifiers:
+    krp: KR4k0375
+  tags:
+    kr-categories: KR4k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4k0375.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4k0375_001.yaml, hash: 'sha256:25fdade53f86cd7e3f0db771cb458de31da6792c27dfec820dc9fe6798b30086'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4k0375_001.markers.yaml, hash: 'sha256:1ce370e18a1d675dbb05bd0d8efc21a66b4a471d06119d64a84663526ed71970'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4k0375_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2617
+  label: 范亨燕書
+  type: section
+  level: 1
+hash: sha256:0bc76c5a6691420bc694a95e7866d4e3acc320146d1131e39a922822f9633ada
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
